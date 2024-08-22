@@ -23,6 +23,11 @@ body {
 .sliderImg {
     object-fit: cover;
     height: 83vh;
+    opacity: 0.8;
+}
+
+.sliderImgBg {
+    background-color: rgba(0, 0, 0);
 }
 
 .carousel-caption {
@@ -239,14 +244,19 @@ body {
     .sliderPreviewContainer .container {
         margin: 0px 0px;
     }
+
     .heroImage {
-        background-image: url(./HeroImage-tablet@2x.jpg)  
+        background-image: url(./HeroImage-tablet@2x.jpg)
     }
 }
 
 /* Media queries for under 768px width screens */
 
 @media (max-width: 768px) {
+    .sliderImg1 {
+        object-position: 20% 50%;
+    }
+
     .previewImg {
         width: 56px;
         height: 74px;
@@ -300,18 +310,23 @@ body {
     .slide-4 {
         width: 70vw !important;
     }
+
     .heroImage {
-        background-image: url(/HeroImage-mobile@2x.jpg)  
+        background-image: url(/HeroImage-mobile@2x.jpg)
     }
+
     .heroText {
         margin-left: 0px;
     }
+
     .heroContainer {
         align-items: center;
     }
+
     .heroTitle {
         font-size: 16px;
     }
+
     .heroList {
         font-size: 40px;
         line-height: 120%;
