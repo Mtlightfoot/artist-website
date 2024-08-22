@@ -384,11 +384,11 @@ body {
     .columnSubscribeText {
         font-size: 14px;
         font-family: "faktBlond", sans-serif !important;
-        margin-left: 100px;
+        margin-left: 80px;
     }
 
     .consentText {
         font-size: 14px;
-        width: 60%;
+        width: 80%;
     }
 }
