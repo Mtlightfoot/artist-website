@@ -90,6 +90,90 @@ body {
     --bs-progress-bar-bg: #000000 !important;
 }
 
+/* Latest works section */
+
+.latestWorksSection {
+    font-size: 50px;
+    text-align: center;
+    margin: 100px 0px;
+}
+
+/* Carousel Css */
+
+.carouselContainer {
+    height: 552px;
+}
+
+.carouselImg {
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 50px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin-left: 50px !important;
+}
+
+.swiper-pagination-bullets {
+    display: none;
+}
+
+.swiper-slide {
+    text-align: left;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.slide-1 {
+    width: 30vw !important;
+}
+
+.slide-2 {
+    width: 20vw !important;
+}
+
+.slide-3 {
+    width: 40vw !important;
+}
+
+.slide-4 {
+    width: 20vw !important;
+}
+
+.carouselTextBox {
+    margin: 20px 0px;
+}
+
+.swiper-slide h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.swiper-slide h2 {
+    font-size: 20px;
+    font-family: 'faktBlond', sans-serif;
+    line-height: 100%;
+}
+
+.swiper-slide h3 {
+    font-size: 12px;
+    color: #555555;
+}
+
 @media (max-width: 992px) {
     .latestCol {
         display: none;
@@ -140,5 +224,29 @@ body {
 
     .sliderPreviewContainer .col {
         padding: 4px;
+    }
+
+    .latestWorksSection {
+        font-size: 25px;
+    }
+
+    .swiper {
+        margin-left: 20px !important;
+    }
+
+    .slide-1 {
+        width: 70vw !important;
+    }
+
+    .slide-2 {
+        width: 50vw !important;
+    }
+
+    .slide-3 {
+        width: 80vw !important;
+    }
+
+    .slide-4 {
+        width: 50vw !important;
     }
 }
