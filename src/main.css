@@ -301,12 +301,19 @@ body {
         width: 70vw !important;
     }
     .heroImage {
-        background-image: url(./HeroImage-mobile@2x.jpg)  
+        background-image: url(/HeroImage-mobile@2x.jpg)  
     }
     .heroText {
         margin-left: 0px;
     }
     .heroContainer {
         align-items: center;
+    }
+    .heroTitle {
+        font-size: 16px;
+    }
+    .heroList {
+        font-size: 40px;
+        line-height: 120%;
     }
 }
