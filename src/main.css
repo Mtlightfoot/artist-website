@@ -453,7 +453,21 @@ body {
         width: 80%;
     }
 
+    .artWorkTitleBox {
+        margin-left: 35px;
+        margin-top: 29px;
+        color: #ffffff;
+    }
+
     .artWorkFeature {
         height: 60vh;
+    }
+
+    .artWorkTitle {
+        font-size: 16px;
+    }
+
+    .artWorkSubtitle {
+        font-size: 25px;
     }
 }

@@ -7,7 +7,7 @@ function ArtworkGrid() {
     return (
         <Container className='artWorkContainer'>
             <Row className='artWorkRow'>
-                <Col className='artWorkFeature' xs={10} sm={10} lg={6}>
+                <Col className='artWorkFeature' xs={11} sm={11} lg={6}>
                     <div className='artWorkTitleBox'>
                         <h1 className='artWorkTitle'>Featured</h1>
                         <h2 className='artworkSubtitle'>Photography</h2>
