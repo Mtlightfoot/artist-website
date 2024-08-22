@@ -221,6 +221,42 @@ body {
     letter-spacing: 2px;
 }
 
+/* CSS for subscribe component */
+
+.subscribeContainer {
+    height: 432px;
+    background-color: #FFEDD1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribeContainer .textBox {
+    display: flex;
+    justify-content: center;
+    max-width: 1920px;
+}
+
+.columnTitle {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.titleRight {
+    border-bottom: 2px solid black;
+}
+
+.columnSubscribeText {
+    font-size: 25px;
+    font-family: "faktBlond", sans-serif !important;
+    margin-left: 140px;
+}
+
+.consentText {
+    font-size: 18px;
+    width: 60%;
+}
+
 
 /* Media queries for under 992px width screens */
 
@@ -330,5 +366,29 @@ body {
     .heroList {
         font-size: 40px;
         line-height: 120%;
+    }
+
+    .subscribeContainer .textBox {
+        margin: 50px;
+    }
+
+    .columnTitle {
+        font-size: 25px;
+    }
+
+    .titleRight {
+        border-bottom: 2px solid black;
+        text-align: left;
+    }
+
+    .columnSubscribeText {
+        font-size: 14px;
+        font-family: "faktBlond", sans-serif !important;
+        margin-left: 100px;
+    }
+
+    .consentText {
+        font-size: 14px;
+        width: 60%;
     }
 }

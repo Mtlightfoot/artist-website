@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './containers/Header'
 import CarouselLatestWorks from './components/CarouselLatestWorks';
 import Hero from './components/Hero'
+import Subscribe from './components/Subscribe';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <h1 className='latestWorksSection'>Latest Works</h1>
       <CarouselLatestWorks />
       <Hero />
+      <Subscribe />
     </>
   )
 }
