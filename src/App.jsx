@@ -8,6 +8,7 @@ import CarouselLatestWorks from './components/CarouselLatestWorks';
 import Hero from './components/Hero'
 import Subscribe from './components/Subscribe';
 import ArtworkGrid from './components/ArtworkGrid';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Hero />
       <Subscribe />
       <ArtworkGrid />
+      <Footer />
     </>
   )
 }
