@@ -239,11 +239,6 @@ body {
 
 .columnTitle {
     font-size: 40px;
-    margin-bottom: 50px;
-}
-
-.titleRight {
-    border-bottom: 2px solid black;
 }
 
 .columnSubscribeText {
@@ -255,6 +250,18 @@ body {
 .consentText {
     font-size: 18px;
     width: 60%;
+}
+
+.column-1 .leftTitle {
+    margin-bottom: 50px;
+}
+
+.column-2 .topBox {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    margin-bottom: 50px;
+    align-items: end;
 }
 
 
@@ -377,14 +384,13 @@ body {
     }
 
     .titleRight {
-        border-bottom: 2px solid black;
         text-align: left;
     }
 
     .columnSubscribeText {
         font-size: 14px;
         font-family: "faktBlond", sans-serif !important;
-        margin-left: 80px;
+        margin-left: 10vw;
     }
 
     .consentText {

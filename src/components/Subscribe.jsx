@@ -12,10 +12,13 @@ function Subscribe() {
             <Container className='textBox'>
                 <Row>
                     <Col className='column-1' md={6}>
-                        <h1 className='columnTitle'>Subscribe to our News</h1>
+                        <h1 className='leftTitle columnTitle'>Subscribe to our News</h1>
                     </Col>
                     <Col className='column-2' md={6}>
-                        <h1 className='titleRight columnTitle'>Email Address <span className='columnSubscribeText'>Subscribe</span></h1>
+                        <div className='topBox'>
+                            <h1 className='titleRight columnTitle'>Email Address</h1>
+                            <h2 className='columnSubscribeText'>Subscribe</h2>
+                        </div>
                         <h2 className='consentText'>You are consenting to Acme Co storing your personal information (email address)</h2>
                     </Col>
                 </Row>
