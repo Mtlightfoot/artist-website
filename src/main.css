@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'fakt';
+    src: url('./fonts/FaktPro-Normal.otf') format("opentype");
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: "fakt", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.sliderImg {
+    object-fit: cover;
+    height: 83vh;
+}
+
+/* CSS for SliderPreview */
+
+.sliderPreviewContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 17vh;
+    background-color: #FFEDD1;
+}
+
+.sliderPreviewImg {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.previewImg {
+    width: 136px;
+    height: 90px;
+}
+
+.sliderPreviewContainer .mainTitle {
+    font-size: 25px;
+}
+
+.sliderPreviewContainer .title {
+    font-size: 12px;
+}
+
+.sliderPreviewContainer .subtitle {
+    font-size: 18px;
+    word-wrap: break-word;
+}
+
+.sliderPreviewContainer .view {
+    font-size: 18px
+}
+
+.sliderPreviewContainer .container {
+    max-width: 1920px;
+}
+
+.progress,
+.progressStacked {
+    --bs-progress-height: 3px !important;
+    --bs-progress-bar-bg: #000000 !important;
+}
+
+@media (max-width: 992px) {
+    .latestCol {
+        display: none;
+    }
+
+    .sliderPreviewContainer .title {
+        font-size: 10px;
+    }
+
+    .sliderPreviewContainer .subtitle {
+        font-size: 14px;
+    }
+
+    .sliderPreviewContainer .view {
+        font-size: 14px
+    }
+
+}
+
+@media (max-width: 768px) {
+    .previewImg {
+        width: 56px;
+        height: 74px;
+    }
+}

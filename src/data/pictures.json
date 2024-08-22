@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "artist": "Pieter Hugo",
+        "description": "A picture of the artist Pieter Hugo standing in front of lorries",
+        "image": "./HeroSlider-1@2x.jpg"
+    },
+    {
+        "id": 2,
+        "artist": "Cig Harvey",
+        "description": "A picture of flying birds from the artist Cig Harvey",
+        "image": "./HeroSlider-2@2x.jpg"
+    },
+    {
+        "id": 3,
+        "artist": "Emerging Artists 2020, A Round Up",
+        "description": "A picture of a man wearing sunglasses holding a dog who is licking his face",
+        "image": "./HeroSlider-3@2x.jpg"
+    }
+]
