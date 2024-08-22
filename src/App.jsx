@@ -7,6 +7,7 @@ import Header from './containers/Header'
 import CarouselLatestWorks from './components/CarouselLatestWorks';
 import Hero from './components/Hero'
 import Subscribe from './components/Subscribe';
+import ArtworkGrid from './components/ArtworkGrid';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <CarouselLatestWorks />
       <Hero />
       <Subscribe />
+      <ArtworkGrid />
     </>
   )
 }

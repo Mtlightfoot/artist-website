@@ -175,7 +175,7 @@ body {
 .swiper-slide h2 {
     font-size: 20px;
     font-family: 'faktBlond', sans-serif;
-    line-height: 100%;
+    line-height: 150%;
 }
 
 .swiper-slide h3 {
@@ -264,6 +264,61 @@ body {
     align-items: end;
 }
 
+/* CSS stylings for ArtWorkGrid */
+
+.artWorkContainer {
+    max-width: 1920px !important;
+    margin: 127px 0px;
+    height: 1270px;
+}
+
+.artWorkRow {
+    height: 100%;
+}
+
+.artWorkFeature {
+    background-image: url(/ArtworkGrid-1@2x.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 70px;
+}
+
+.artWorkTitleBox {
+    margin-left: 100px;
+    margin-top: 69px;
+    color: #ffffff;
+}
+
+.artWorkTitle {
+    font-family: "faktBlond", sans-serif !important;
+    font-size: 25px;
+}
+
+.artWorkSubtitle {
+    font-size: 50px;
+}
+
+.artWorkPicture {
+    width: 100%;
+}
+
+.artWorkPictureDiv h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.artWorkPictureDiv h2 {
+    font-size: 20px;
+    font-family: 'faktBlond', sans-serif;
+    line-height: 150%;
+}
+
+.artWorkPictureDiv h3 {
+    font-size: 12px;
+    color: #555555;
+}
 
 /* Media queries for under 992px width screens */
 
@@ -396,5 +451,9 @@ body {
     .consentText {
         font-size: 14px;
         width: 80%;
+    }
+
+    .artWorkFeature {
+        height: 60vh;
     }
 }
