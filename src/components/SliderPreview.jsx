@@ -1,33 +1,26 @@
 import React from 'react'
+
+// Imports for Bootstrap Grid
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import pictures from '../data/pictures.json'
+
+// Data import for pictures
+import pictures from '../data/pictures.json';
+
+// Imports for progress bar from react bootstrap
 import ProgressBar from 'react-bootstrap/ProgressBar';
 
 import '../main.css'
-
-const styles = {
-    mainTitle: {
-        fontSize: '25px'
-    },
-    title: {
-        fontSize: '12px'
-    },
-    subtitle: {
-        fontSize: '18px'
-    },
-    view: {
-        fontSize: '18px'
-    }
-}
 
 function SliderPreview() {
     return (
         <div className='sliderPreviewContainer w-100 justify-content-center'>
             <Container className='w-100 container'>
                 <Row>
-                    <Col className='latestCol'><h1 className='mainTitle'>Latest</h1></Col>
+                    <Col className='latestCol'>
+                        <h1 className='mainTitle'>Latest</h1>
+                    </Col>
                     <Col className='d-flex my-auto col'>
                         <div className='previewImg me-2'>
                             <img className="sliderPreviewImg" src="./HeroSlider-1@2x.jpg" alt="" />
