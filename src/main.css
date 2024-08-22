@@ -3,6 +3,11 @@
     src: url('./fonts/FaktPro-Normal.otf') format("opentype");
 }
 
+@font-face {
+    font-family: 'faktBlond';
+    src: url('./fonts/FaktPro-Blond.otf') format("opentype");
+}
+
 *,
 *::before,
 *::after {
@@ -18,6 +23,22 @@ body {
 .sliderImg {
     object-fit: cover;
     height: 83vh;
+}
+
+.carousel-caption {
+    display: flex;
+    flex-direction: column;
+}
+
+.carouselText {
+    font-size: 25px;
+    font-family: 'faktBlond', sans-serif;
+    text-align: left;
+}
+
+.carouselArtist {
+    font-size: 100px;
+    text-align: left;
 }
 
 /* CSS for SliderPreview */
@@ -60,6 +81,7 @@ body {
 
 .sliderPreviewContainer .container {
     max-width: 1920px;
+    margin: 0px 100px;
 }
 
 .progress,
@@ -85,11 +107,22 @@ body {
         font-size: 14px
     }
 
+    .sliderPreviewContainer .container {
+        margin: 0px 0px;
+    }
 }
 
 @media (max-width: 768px) {
     .previewImg {
         width: 56px;
         height: 74px;
+    }
+
+    .carouselText {
+        font-size: 16px;
+    }
+
+    .carouselArtist {
+        font-size: 40px;
     }
 }

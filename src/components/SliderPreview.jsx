@@ -25,7 +25,7 @@ const styles = {
 function SliderPreview() {
     return (
         <div className='sliderPreviewContainer w-100 justify-content-center'>
-            <Container fluid className='mx-5 w-100 container'>
+            <Container fluid className='w-100 container'>
                 <Row>
                     <Col className='latestCol'><h1 className='mainTitle'>Latest</h1></Col>
                     <Col className='d-flex my-auto'>
