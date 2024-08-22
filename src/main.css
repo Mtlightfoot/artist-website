@@ -125,4 +125,20 @@ body {
     .carouselArtist {
         font-size: 40px;
     }
+
+    .sliderPreviewContainer .title {
+        font-size: 6px;
+    }
+
+    .sliderPreviewContainer .subtitle {
+        font-size: 9px;
+    }
+
+    .sliderPreviewContainer .view {
+        font-size: 9px
+    }
+
+    .sliderPreviewContainer .col {
+        padding: 4px;
+    }
 }

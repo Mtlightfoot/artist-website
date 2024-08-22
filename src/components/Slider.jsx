@@ -8,7 +8,7 @@ import '../main.css'
 function Slider() {
     return (
         <Carousel controls={false} indicators={false}>
-            <Carousel.Item interval={2000}>
+            <Carousel.Item interval={4000}>
                 <img
                     className="sliderImg d-block min-vh-90 w-100"
                     src="HeroSlider-1@2x.jpg"

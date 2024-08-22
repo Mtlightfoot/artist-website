@@ -25,10 +25,10 @@ const styles = {
 function SliderPreview() {
     return (
         <div className='sliderPreviewContainer w-100 justify-content-center'>
-            <Container fluid className='w-100 container'>
+            <Container className='w-100 container'>
                 <Row>
                     <Col className='latestCol'><h1 className='mainTitle'>Latest</h1></Col>
-                    <Col className='d-flex my-auto'>
+                    <Col className='d-flex my-auto col'>
                         <div className='previewImg me-2'>
                             <img className="sliderPreviewImg" src="./HeroSlider-1@2x.jpg" alt="" />
                             <ProgressBar className='progressBar' min={0} now={50} max={100} />
@@ -41,7 +41,7 @@ function SliderPreview() {
                             <h3 className='view'>View</h3>
                         </div>
                     </Col>
-                    <Col className='d-flex my-auto'>
+                    <Col className='d-flex my-auto col'>
                         <div className='previewImg me-2'>
                             <img className="sliderPreviewImg" src="./HeroSlider-2@2x.jpg" alt="" />
                             <ProgressBar className='progressBar' min={0} now={50} max={100} />
@@ -54,7 +54,7 @@ function SliderPreview() {
                             <h3 className='view'>View</h3>
                         </div>
                     </Col>
-                    <Col className='d-flex my-auto'>
+                    <Col className='d-flex my-auto col'>
                         <div className='previewImg me-2'>
                             <img className="sliderPreviewImg" src="./HeroSlider-3@2x.jpg" alt="" />
                             <ProgressBar className='progressBar' min={0} now={50} max={100} />
