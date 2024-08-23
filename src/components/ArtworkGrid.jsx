@@ -1,9 +1,13 @@
+// React import
 import React from 'react'
+
+// Bootstrap imports for styling
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 function ArtworkGrid() {
+    
     return (
         <Container className='artWorkContainer'>
             <Row className='artWorkRow'>

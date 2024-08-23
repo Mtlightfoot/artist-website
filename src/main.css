@@ -20,6 +20,46 @@ body {
     font-family: "fakt", sans-serif;
 }
 
+/* Navbar Styling */
+
+#navBar {
+    background: transparent !important;
+    color: white !important;
+    margin-top: 30px;
+}
+
+#logo {
+    color: white;
+}
+
+#navLink {
+    color: white !important;
+    font-family: "fakt", sans-serif !important;
+    font-size: 18px;
+    padding: 0px 20px;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+#navBarLogoFull {
+    text-align: center;
+    width: 50vw !important;
+}
+
+.navLinks {
+    display: flex;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        flex-basis: 50vw !important;
+    }
+}
+
+/* Stylings for Slider at top of the frontpage */
+
 .sliderImg {
     object-fit: cover;
     height: 83vh;

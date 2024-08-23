@@ -7,7 +7,6 @@ import '../main.css'
 
 function Slider() {
 
-    
     return (
         <Carousel controls={false} indicators={false} touch={false} pause={false}>
             <Carousel.Item data={1} interval={5000}>

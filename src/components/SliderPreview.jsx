@@ -1,3 +1,4 @@
+// React imports
 import React, { useState, useEffect } from 'react'
 
 // Imports for Bootstrap Grid
@@ -8,12 +9,15 @@ import Col from 'react-bootstrap/Col';
 // Data import for pictures
 import pictures from '../data/pictures.json';
 
+// Progress bar import from bootstrap
 import ProgressBar from 'react-bootstrap/ProgressBar';
 
+// Import for main stylings
 import '../main.css'
 
 function SliderPreview() {
 
+//Timer used for progress bars underneath pictures in slider preview
     const [count, setCount] = useState(0);
     const [count2, setCount2] = useState(0);
     const [count3, setCount3] = useState(0);
@@ -33,8 +37,6 @@ function SliderPreview() {
             }
         }, [100]);
     });
-
-    // console.log(count)
 
     return (
         <div className='sliderPreviewContainer w-100 justify-content-center'>

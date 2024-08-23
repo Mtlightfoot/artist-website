@@ -3,6 +3,7 @@ import './main.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Component imports
+import NavBar from './components/NavBar';
 import Header from './containers/Header'
 import CarouselLatestWorks from './components/CarouselLatestWorks';
 import Hero from './components/Hero'
@@ -14,6 +15,7 @@ function App() {
 
   return (
     <>
+      <NavBar />
       <Header />
       <h1 className='latestWorksSection'>Latest Works</h1>
       <CarouselLatestWorks />
