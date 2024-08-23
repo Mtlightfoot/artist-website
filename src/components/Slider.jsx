@@ -6,9 +6,11 @@ import pictures from '../data/pictures.json'
 import '../main.css'
 
 function Slider() {
+
+    
     return (
-        <Carousel controls={false} indicators={false}>
-            <Carousel.Item interval={4000}>
+        <Carousel controls={false} indicators={false} touch={false} pause={false}>
+            <Carousel.Item data={1} interval={5000}>
                 <div className='sliderImgBg sliderImg1'>
                     <img
                         className="sliderImg1 sliderImg d-block min-vh-90 w-100"
@@ -22,7 +24,7 @@ function Slider() {
                 </Carousel.Caption>
             </Carousel.Item>
 
-            <Carousel.Item interval={2000}>
+            <Carousel.Item interval={5000}>
                 <div className='sliderImgBg'>
                     <img
                         className="sliderImg d-block min-vh-90 w-100"
@@ -35,7 +37,7 @@ function Slider() {
                     <h4 className='carouselArtist'>{pictures[1].artist}</h4>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item interval={2000}>
+            <Carousel.Item interval={5000}>
                 <div className='sliderImgBg'>
                     <img
                         className="sliderImg d-block min-vh-90 w-100"

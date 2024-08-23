@@ -18,7 +18,7 @@ function Subscribe() {
                         <div className='topBox'>
                             <div className="input-group mb-2">
                                 <input type="text" className="form-control titleRight columnTitle" placeholder="Email Address" aria-label="Username" aria-describedby="basic-addon1" />
-                                <button class="btn" type="button" id="button-addon2 inputBtn">Subscribe</button>
+                                <button className="btn" type="button" id="button-addon2 inputBtn">Subscribe</button>
                             </div>
                         </div>
                         <h2 className='consentText'>You are consenting to Acme Co storing your personal information (email address)</h2>

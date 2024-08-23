@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 
 // Imports for Bootstrap Grid
 import Container from 'react-bootstrap/Container';
@@ -8,12 +8,34 @@ import Col from 'react-bootstrap/Col';
 // Data import for pictures
 import pictures from '../data/pictures.json';
 
-// Imports for progress bar from react bootstrap
 import ProgressBar from 'react-bootstrap/ProgressBar';
 
 import '../main.css'
 
 function SliderPreview() {
+
+    const [count, setCount] = useState(0);
+    const [count2, setCount2] = useState(0);
+    const [count3, setCount3] = useState(0);
+
+    useEffect(() => {
+        setTimeout(() => {
+            if (count < 50) {
+                setCount((count) => count + 1);
+            } else if (count === 50 && count2 < 50) {
+                setCount2((count2) => count2 + 1);
+            } else if (count2 === 50 && count3 < 50) {
+                setCount3((count3) => count3 + 1);
+            } else {
+                setCount(0)
+                setCount2(0)
+                setCount3(0)
+            }
+        }, [100]);
+    });
+
+    // console.log(count)
+
     return (
         <div className='sliderPreviewContainer w-100 justify-content-center'>
             <Container className='w-100 container'>
@@ -24,7 +46,13 @@ function SliderPreview() {
                     <Col className='d-flex my-auto col'>
                         <div className='previewImg me-2'>
                             <img className="sliderPreviewImg" src="./HeroSlider-1@2x.jpg" alt="" />
-                            <ProgressBar className='progressBar' min={0} now={50} max={100} />
+                            <ProgressBar
+                                animated
+                                className='progressBar'
+                                min={0}
+                                now={count}
+                                max={50}
+                            />
                         </div>
                         <div className='d-flex flex-column justify-content-between'>
                             <div>
@@ -37,7 +65,13 @@ function SliderPreview() {
                     <Col className='d-flex my-auto col'>
                         <div className='previewImg me-2'>
                             <img className="sliderPreviewImg" src="./HeroSlider-2@2x.jpg" alt="" />
-                            <ProgressBar className='progressBar' min={0} now={50} max={100} />
+                            <ProgressBar
+                                animated
+                                className='progressBar'
+                                min={0}
+                                now={count2}
+                                max={50}
+                            />
                         </div>
                         <div className='d-flex flex-column justify-content-between'>
                             <div>
@@ -50,7 +84,13 @@ function SliderPreview() {
                     <Col className='d-flex my-auto col'>
                         <div className='previewImg me-2'>
                             <img className="sliderPreviewImg" src="./HeroSlider-3@2x.jpg" alt="" />
-                            <ProgressBar className='progressBar' min={0} now={50} max={100} />
+                            <ProgressBar
+                                animated
+                                className='progressBar'
+                                min={0}
+                                now={count3}
+                                max={50}
+                            />
                         </div>
                         <div className='d-flex flex-column justify-content-between'>
                             <div>
