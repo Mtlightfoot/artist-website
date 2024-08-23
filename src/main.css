@@ -227,7 +227,7 @@ body {
 
 .heroImage {
     height: 100vh;
-    background-image: url(./HeroImage-desktop@2x.jpg);
+    background-image: url(/HeroImage-desktop@2x.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -486,7 +486,7 @@ input[type=text]::placeholder {
     }
 
     .heroImage {
-        background-image: url(./HeroImage-tablet@2x.jpg)
+        background-image: url(/HeroImage-tablet@2x.jpg)
     }
 
     .footerContainer .columnTitle,
