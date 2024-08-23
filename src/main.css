@@ -384,6 +384,13 @@ input[type=text] {
     line-height: 1.2;
     color: var(--bs-heading-color);
     padding: 0px;
+    background-color: transparent;
+}
+
+input[type=text]:hover,
+input[type=text]:active,
+input[type=text]:focus {
+    background-color: transparent !important;
 }
 
 input[type=text]::placeholder {
@@ -432,11 +439,14 @@ input[type=text]::placeholder {
     .heroImage {
         background-image: url(./HeroImage-tablet@2x.jpg)
     }
-    .footerContainer .columnTitle {
+
+    .footerContainer .columnTitle,
+    .subscribeContainer .columnTitle {
         font-size: 20px;
     }
 
-    .footerContainer .btn[type=button] {
+    .footerContainer .btn[type=button],
+    .subscribeContainer .btn[type=button] {
         font-size: 14px !important;
     }
 }

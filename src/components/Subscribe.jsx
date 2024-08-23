@@ -16,8 +16,10 @@ function Subscribe() {
                     </Col>
                     <Col className='column-2' md={6}>
                         <div className='topBox'>
-                            <h1 className='titleRight columnTitle'>Email Address</h1>
-                            <h2 className='columnSubscribeText'>Subscribe</h2>
+                            <div className="input-group mb-2">
+                                <input type="text" className="form-control titleRight columnTitle" placeholder="Email Address" aria-label="Username" aria-describedby="basic-addon1" />
+                                <button class="btn" type="button" id="button-addon2 inputBtn">Subscribe</button>
+                            </div>
                         </div>
                         <h2 className='consentText'>You are consenting to Acme Co storing your personal information (email address)</h2>
                     </Col>
