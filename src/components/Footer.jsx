@@ -10,12 +10,14 @@ function Footer() {
     return (
         <div className='footerContainer'>
             <Container className='textBox my-5'>
-                <Row className='topRow gx-5 mx-5'>
+                <Row className='topRow gx-5'>
                     <Col className='column-2' md={6}>
                         <h1 className='topBoxTagline'>Sign up to our Newsletter</h1>
                         <div className='topBox'>
-                            <h1 className='titleRight columnTitle'>Email Address</h1>
-                            <h2 className='columnFooterText'>Subscribe</h2>
+                            <div className="input-group mb-2">
+                                <input type="text" className="form-control titleRight columnTitle" placeholder="Email Address" aria-label="Username" aria-describedby="basic-addon1" />
+                                <button class="btn" type="button" id="button-addon2 inputBtn">Subscribe</button>
+                            </div>
                         </div>
                     </Col>
                     <Col className='column-1' md={6}>
@@ -53,7 +55,7 @@ function Footer() {
                         </Row>
                     </Col>
                 </Row>
-                <Row className='bottomRow mx-5'>
+                <Row className='bottomRow'>
                     <Col xs={6} md={6}>
                         <div className='bottomFooterBox d-flex justify-content-start'>
                             <h2 className='bottomFooterText'>©2020 Acme Co</h2>
