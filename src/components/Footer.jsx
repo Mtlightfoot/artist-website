@@ -26,10 +26,10 @@ function Footer() {
                                 <h1 className='topBoxTagline'>Sitemap</h1>
                                 <div>
                                     <ul className='footerList'>
-                                        <li>Artwork</li>
-                                        <li>Artists</li>
-                                        <li>Exhibitions</li>
-                                        <li>Journal</li>
+                                        <li><a id='footerLink' href="">Artwork</a></li>
+                                        <li><a id='footerLink' href="">Artists</a></li>
+                                        <li><a id='footerLink' href="">Exhibitions</a></li>
+                                        <li><a id='footerLink' href="">Journal</a></li>
                                     </ul>
                                 </div>
                             </Col>
@@ -37,9 +37,9 @@ function Footer() {
                                 <h1 className='topBoxTagline'>Information</h1>
                                 <div>
                                     <ul className='footerList'>
-                                        <li>About</li>
-                                        <li>Contact</li>
-                                        <li>FAQ</li>
+                                        <li><a id='footerLink' href="">About</a></li>
+                                        <li><a id='footerLink' href="">Contact</a></li>
+                                        <li><a id='footerLink' href="">FAQ</a></li>
                                     </ul>
                                 </div>
                             </Col>
@@ -47,8 +47,8 @@ function Footer() {
                                 <h1 className='topBoxTagline'>Legal</h1>
                                 <div>
                                     <ul className='footerList'>
-                                        <li>Terms of Use</li>
-                                        <li>Privacy Policy</li>
+                                        <li><a id='footerLink' href="">Terms of Use</a></li>
+                                        <li><a id='footerLink' href="">Privacy Policy</a></li>
                                     </ul>
                                 </div>
                             </Col>

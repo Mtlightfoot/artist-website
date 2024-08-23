@@ -31,7 +31,7 @@ function SliderPreview() {
                                 <h1 className='title'>SPOTLIGHT</h1>
                                 <h2 className='subtitle text-uppercase'>{pictures[0].artist}</h2>
                             </div>
-                            <h3 className='view'>View</h3>
+                            <h3 className='view'><a id='footerLink' href="">View</a></h3>
                         </div>
                     </Col>
                     <Col className='d-flex my-auto col'>
@@ -44,7 +44,7 @@ function SliderPreview() {
                                 <h1 className='title'>SPOTLIGHT</h1>
                                 <h2 className='subtitle text-uppercase'>{pictures[1].artist}</h2>
                             </div>
-                            <h3 className='view'>View</h3>
+                            <h3 className='view'><a id='footerLink' href="">View</a></h3>
                         </div>
                     </Col>
                     <Col className='d-flex my-auto col'>
@@ -57,7 +57,7 @@ function SliderPreview() {
                                 <h1 className='title'>SPOTLIGHT</h1>
                                 <h2 className='subtitle'>{pictures[2].artist}</h2>
                             </div>
-                            <h3 className='view'>View</h3>
+                            <h3 className='view'><a id='footerLink' href="">View</a></h3>
                         </div>
                     </Col>
                 </Row>
