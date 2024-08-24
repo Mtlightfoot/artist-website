@@ -8,7 +8,7 @@ import '../main.css'
 function Slider() {
 
     return (
-        <Carousel controls={false} indicators={false} touch={false} pause={false}>
+        <Carousel id='carouselMain' controls={false} indicators={false} touch={false} pause={false}>
             <Carousel.Item data={1} interval={5000}>
                 <div className='sliderImgBg sliderImg1'>
                     <img
