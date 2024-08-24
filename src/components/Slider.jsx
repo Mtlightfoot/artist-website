@@ -13,8 +13,8 @@ function Slider() {
                 <div className='sliderImgBg sliderImg1'>
                     <img
                         className="sliderImg1 sliderImg d-block min-vh-90 w-100"
-                        src="HeroSlider-1@2x.jpg"
-                        alt="First slide"
+                        src={pictures[0].image}
+                        alt={pictures[0].description}
                     />
                 </div>
                 <Carousel.Caption className='carouselCaption h-100 align-items-start justify-content-center'>
@@ -27,8 +27,8 @@ function Slider() {
                 <div className='sliderImgBg'>
                     <img
                         className="sliderImg d-block min-vh-90 w-100"
-                        src="HeroSlider-2@2x.jpg"
-                        alt="Second slide"
+                        src={pictures[1].image}
+                        alt={pictures[1].description}
                     />
                 </div>
                 <Carousel.Caption className='carouselCaption h-100 align-items-start justify-content-center'>
@@ -40,8 +40,8 @@ function Slider() {
                 <div className='sliderImgBg'>
                     <img
                         className="sliderImg d-block min-vh-90 w-100"
-                        src="HeroSlider-3@2x.jpg"
-                        alt="Third slide"
+                        src={pictures[2].image}
+                        alt={pictures[2].description}
                     />
                 </div>
                 <Carousel.Caption className='carouselCaption h-100 align-items-start justify-content-center'>

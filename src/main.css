@@ -42,6 +42,10 @@ body {
     padding: 0px 20px;
 }
 
+#navLink:hover {
+    text-decoration: underline;
+}
+
 .navbar-nav {
     align-items: center;
 }
@@ -102,17 +106,13 @@ body {
     align-items: center;
     height: 17vh;
     background-color: #FFEDD1;
+    overflow: auto;
 }
 
 .sliderPreviewImg {
-    height: 100%;
-    object-fit: cover;
-    width: 100%;
-}
-
-.previewImg {
-    width: 136px;
     height: 90px;
+    object-fit: cover;
+    width: 136px;
 }
 
 .sliderPreviewContainer .mainTitle {
@@ -125,7 +125,6 @@ body {
 
 .sliderPreviewContainer .subtitle {
     font-size: 18px;
-    word-wrap: break-word;
 }
 
 .sliderPreviewContainer .view {
@@ -135,6 +134,10 @@ body {
 .sliderPreviewContainer .container {
     max-width: 1920px;
     margin: 0px 100px;
+}
+
+#colMargin {
+    margin: 5.10px 0px !important;
 }
 
 .progress,
@@ -468,11 +471,7 @@ input[type=text]::placeholder {
     font-weight: 600;
 }
 
-
-
-/* Media queries for under 992px width screens */
-
-@media (max-width: 992px) {
+@media (max-width: 1400px) {
     .latestCol {
         display: none;
     }
@@ -491,6 +490,17 @@ input[type=text]::placeholder {
 
     .sliderPreviewContainer .container {
         margin: 0px 0px;
+    }
+
+}
+
+/* Media queries for under 992px width screens */
+
+@media (max-width: 992px) {
+
+    .sliderPreviewImg {
+        width: 56px;
+        height: 74px;
     }
 
     .heroImage {

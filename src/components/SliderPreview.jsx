@@ -17,7 +17,7 @@ import '../main.css'
 
 function SliderPreview() {
 
-//Timer used for progress bars underneath pictures in slider preview
+    //Timer used for progress bars underneath pictures in slider preview
     const [count, setCount] = useState(0);
     const [count2, setCount2] = useState(0);
     const [count3, setCount3] = useState(0);
@@ -42,12 +42,12 @@ function SliderPreview() {
         <div className='sliderPreviewContainer w-100 justify-content-center'>
             <Container className='w-100 container'>
                 <Row>
-                    <Col className='latestCol'>
+                    <Col lg={2} className='latestCol'>
                         <h1 className='mainTitle'>Latest</h1>
                     </Col>
-                    <Col className='d-flex my-auto col'>
+                    <Col id='colMargin' className='d-flex my-auto col'>
                         <div className='previewImg me-2'>
-                            <img className="sliderPreviewImg" src="./HeroSlider-1@2x.jpg" alt="" />
+                            <img className="sliderPreviewImg" src={pictures[0].image} alt={pictures[0].description} />
                             <ProgressBar
                                 animated
                                 className='progressBar'
@@ -64,9 +64,9 @@ function SliderPreview() {
                             <h3 className='view'><a id='footerLink' href="">View</a></h3>
                         </div>
                     </Col>
-                    <Col className='d-flex my-auto col'>
+                    <Col id='colMargin' className='d-flex my-auto col'>
                         <div className='previewImg me-2'>
-                            <img className="sliderPreviewImg" src="./HeroSlider-2@2x.jpg" alt="" />
+                            <img className="sliderPreviewImg" src={pictures[1].image} alt={pictures[1].description} />
                             <ProgressBar
                                 animated
                                 className='progressBar'
@@ -83,9 +83,9 @@ function SliderPreview() {
                             <h3 className='view'><a id='footerLink' href="">View</a></h3>
                         </div>
                     </Col>
-                    <Col className='d-flex my-auto col'>
+                    <Col id='colMargin' className='d-flex my-auto col'>
                         <div className='previewImg me-2'>
-                            <img className="sliderPreviewImg" src="./HeroSlider-3@2x.jpg" alt="" />
+                            <img className="sliderPreviewImg" src={pictures[2].image} alt={pictures[2].description} />
                             <ProgressBar
                                 animated
                                 className='progressBar'

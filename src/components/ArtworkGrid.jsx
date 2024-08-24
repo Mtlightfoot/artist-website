@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 function ArtworkGrid() {
-    
+
     return (
         <Container className='artWorkContainer'>
             <Row className='artWorkRow'>
@@ -19,7 +19,7 @@ function ArtworkGrid() {
                 </Col>
                 <Col xs={6} sm={6} lg={3}>
                     <div className='artWorkPictureDiv'>
-                        <img className='artWorkPicture' src="./ArtworkGrid-2@2x.jpg" alt="" />
+                        <img className='artWorkPicture' src="./ArtworkGrid-2@2x.jpg" alt="A picture of some artwork from Artist Kourtney Roy" />
                         <div className='carouselTextBox'>
                             <h1>KOURTNEY ROY</h1>
                             <h2>Ilulissat 03, 2014</h2>
@@ -27,7 +27,7 @@ function ArtworkGrid() {
                         </div>
                     </div>
                     <div className='artWorkPictureDiv'>
-                        <img className='artWorkPicture' src="./ArtworkGrid-4@2x.jpg" alt="" />
+                        <img className='artWorkPicture' src="./ArtworkGrid-4@2x.jpg" alt="A picture of some Artwork from Artist Olaf Otto Becker" />
                         <div className='carouselTextBox'>
                             <h1>OLAF OTTO BECKER</h1>
                             <h2>Chicago, 1976</h2>
@@ -36,7 +36,7 @@ function ArtworkGrid() {
                     </div>                </Col>
                 <Col xs={6} sm={6} lg={3}>
                     <div className='artWorkPictureDiv'>
-                        <img className='artWorkPicture' src="./ArtworkGrid-3@2x.jpg" alt="" />
+                        <img className='artWorkPicture' src="./ArtworkGrid-3@2x.jpg" alt="A picture of some artwork from Artist Kourtney Roy" />
                         <div className='carouselTextBox'>
                             <h1>KOURTNEY ROY</h1>
                             <h2>Ilulissat 03, 2014</h2>
@@ -44,7 +44,7 @@ function ArtworkGrid() {
                         </div>
                     </div>
                     <div className='artWorkPictureDiv'>
-                        <img className='artWorkPicture' src="./ArtworkGrid-5@2x.jpg" alt="" />
+                        <img className='artWorkPicture' src="./ArtworkGrid-5@2x.jpg" alt="A picture of some Artwork from Artist Olaf Otto Becker" />
                         <div className='carouselTextBox'>
                             <h1>OLAF OTTO BECKER</h1>
                             <h2>Chicago, 1976</h2>

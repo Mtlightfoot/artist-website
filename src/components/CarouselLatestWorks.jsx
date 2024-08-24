@@ -27,7 +27,7 @@ function CarouselLatestWorks() {
                 className="mySwiper"
             >
                 <SwiperSlide className='slide-1'>
-                    <img src="./Carousel-1@2x.jpg" alt="" />
+                    <img src="./Carousel-1@2x.jpg" alt="A picture of some Artwork from Artist Kourtney Roy" />
                     <div className='carouselTextBox'>
                         <h1>KOURTNEY ROY</h1>
                         <h2>Ilulissat 03, 2014</h2>
@@ -35,7 +35,7 @@ function CarouselLatestWorks() {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className='slide-2'>
-                    <img src="./Carousel-2@2x.jpg" alt="" />
+                    <img src="./Carousel-2@2x.jpg" alt="A picture of some Artwork from Artist Olaf Otto Becker" />
                     <div className='carouselTextBox'>
                         <h1>OLAF OTTO BECKER</h1>
                         <h2>Chicago, 1976</h2>
@@ -43,7 +43,7 @@ function CarouselLatestWorks() {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className='slide-3'>
-                    <img src="./Carousel-3@2x.jpg" alt="" />
+                    <img src="./Carousel-3@2x.jpg" alt="A picture of some Artwork from Artist Kourtney Roy" />
                     <div className='carouselTextBox'>
                         <h1>KOURTNEY ROY</h1>
                         <h2>Ilulissat 03, 2014</h2>
@@ -51,7 +51,7 @@ function CarouselLatestWorks() {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className='slide-4'>
-                    <img src="./Carousel-4@2x.jpg" alt="" />
+                    <img src="./Carousel-4@2x.jpg" alt="A picture of some Artwork from Artist Olaf Otto Becker" />
                     <div className='carouselTextBox'>
                         <h1>OLAF OTTO BECKER</h1>
                         <h2>Chicago, 1976</h2>
