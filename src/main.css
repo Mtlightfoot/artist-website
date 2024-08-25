@@ -46,6 +46,10 @@ body {
     text-decoration: underline;
 }
 
+#navLinkMobile #navLink{
+    display: none !important;
+}
+
 .navbar-nav {
     align-items: center;
 }
@@ -57,6 +61,18 @@ body {
 
 .navLinks {
     display: flex;
+}
+
+#search {
+    display: none;
+}
+
+#searchDisappear     {
+    visibility: hidden;
+}
+
+#searchFull {
+    display: initial;
 }
 
 @media (min-width: 992px) {
@@ -501,6 +517,26 @@ input[type=text]::placeholder {
     .sliderPreviewImg {
         width: 56px;
         height: 74px;
+    }
+
+    #navbarFull {
+        display: none;
+    }
+
+    #navLinkMobile {
+        display: unset;
+    }
+
+    #search {
+        display: unset;
+    }
+
+    #searchFull {
+        display: none;
+    }
+
+    #navbarFull {
+        display: none;
     }
 
     .heroImage {
