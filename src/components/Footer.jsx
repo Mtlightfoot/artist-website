@@ -67,7 +67,7 @@ function Footer() {
 
                     </Col>
                     <Col xs={6} md={6} className='text-end'>
-                        <h2 className='bottomFooterText text-end'>Made by Six</h2>
+                        <h2 className='bottomFooterText text-end'>Made by M. T. Lightfoot</h2>
                     </Col>
                 </Row>
             </Container>
